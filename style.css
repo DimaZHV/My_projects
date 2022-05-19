@@ -8,6 +8,60 @@ body {
     padding: 0px;
 }
 
+#first-button {
+    border: #000000 1px solid
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    background: transparent;
+    border:#000000 5px solid;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #bdae82;
+    cursor: pointer;
+}
+
+.button-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 45px 0px 45px 0px;
+}
+
+.button-top button {
+    background-color: #bdae82;
+    color: #000000;
+    margin: 0px 15px 0px 15px;
+    width: 180px;
+    height: 40px;
+}
+
+.button-top button:hover {
+    background-color:#000000;
+    border: #bdae82 3px solid;
+    color:#bdae82;
+    cursor: pointer;
+    
+}
+
+.price_items button {
+    border:#bdae82 5px solid;
+    background: transparent;
+    color:#bdae82;
+    width: 180px;
+    height: 40px;
+}
+
+.price_items button:hover {
+    background-color:#bdae82;
+    color:#000000;
+    cursor: pointer;
+}
+
 nav {
     position: relative;
     display: flex;
@@ -62,9 +116,23 @@ nav button {
     margin-top: -100px;
 }
 
-h2 {
-    text-align: center;
+#title {
+    position: relative;
+        background-image: url(../My_projects/Pictures/Peaces/section-title-line.svg);
+            background-position: center;
+            background-repeat: no-repeat
+
 }
+h2 {
+     text-align: center;
+     margin: auto;
+     color: #bdae82;
+     position: relative;
+     width: 170px;
+     background-color:#000000;
+     margin-top: 25px;
+     margin-bottom: 25px;
+ }
 
 #skills {
     margin-top: 400px;
@@ -103,7 +171,11 @@ h2 {
 #portfolio_img img {
     width: 720px;
     margin-top: 10px;
-    
+
+}
+
+#video {
+    text-align: center;
 }
 
 #prices {
@@ -178,7 +250,7 @@ textarea#text::placeholder {
 }
 
 #contacts_item button {
-    margin-right: 165px;
+    margin-right: 160px;
 }
 
 footer {
@@ -187,6 +259,7 @@ footer {
     justify-content: space-between;
 }
 footer #data {
+    margin: auto;
     margin-left: 150px;
 }
 

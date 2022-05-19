@@ -23,7 +23,7 @@
 						<li><a href="#video">Video</a></li>
 						<li><a href="#price">Price</a></li>
 						<li><a href="#contacts">Contacts</a></li>
-						<button>ru/en</button>
+						<button id="first-button">ru/en</button>
 					</ul>
 				</nav>
 			</div>
@@ -38,7 +38,7 @@
 			</div>
 			<div id="skills">
 				<section>
-					<h2>Skills</h2>
+					<div id="title"><h2>Skills</h2></div>
 					<div id="skills_items">
 						<div class="items">
 							<img
@@ -73,12 +73,14 @@
 			</div>
 			<div id="portfolio">
 				<section>
-					<h2>Portfolio</h2>
+					<div id="title"><h2>Portfolio</h2></div>
 					<div id="portfolio_items">
-						<button>Winter</button>
-						<button>Spring</button>
-						<button>Summer</button>
-						<button>Autumn</button>
+						<div class="button-top">
+							<button>Winter</button>
+							<button>Spring</button>
+							<button>Summer</button>
+							<button>Autumn</button>
+						</div>
 					</div>
 					<div id="portfolio_img">
 						<img src="../My_projects/Pictures/2.jpg" alt="2" />
@@ -90,13 +92,25 @@
 			</div>
 			<div id="video">
 				<section>
-					<h2>Video</h2>
-					<video src=""></video>
+					<div id="title"><h2>Video</h2></div>
+					<div id="video">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/fY5JqM3wB0Y"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</div>
 				</section>
 			</div>
 			<div id="price">
 				<section>
-					<h2>Price</h2>
+					<div id="title">
+						<h2>Price</h2>
+					</div>
 					<div id="prices">
 						<div class="price_items">
 							<h3>Standard</h3>
@@ -139,7 +153,9 @@
 			</div>
 			<div id="contacts">
 				<section>
-					<h2>Contact me</h2>
+					<div id="title">
+						<h2>Contact me</h2>
+					</div>
 					<div id="contacts_item">
 						<input class="contacts_input" type="email" placeholder="E-mail" />
 
