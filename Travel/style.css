@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   min-width: 1440px;
-  height: 3735px;
+  height: 3700px;
   background-image: url(../Travel/Pics/BG_top.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -258,9 +258,127 @@ h2 {
   cursor: pointer;
 }
 
+.stories {
+  margin-top: 80px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.stories h2 {
+  background: #ffffff;
+  padding-bottom: 40px;
+}
+
+.stories .block_stories {
+  text-align: left;
+}
+
+.stories .block_stories .block_story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 40px 8% 30px;
+}
+
+.stories .block_stories .block_story img {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.stories .block_stories .block_story .story__description {
+  width: 1200px;
+  height: 250px;
+  color: #0d606f;
+  margin: 0px 3%;
+}
+
+.stories .block_stories .block_story .story__description h3 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.stories .block_stories .block_story .story__description p {
+  font-size: 20px;
+  padding: 0px;
+  margin: 24px 0px 0px 0px;
+}
+
+.stories .block_stories .block_story .story__description p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0d606f;
+}
+
+.stories .story_button {
+  width: 228px;
+  height: 59px;
+  background-color: #0d606f;
+  color: #ffffff;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  border-color: #0d606f;
+}
+
+.stories .story_button:hover {
+  cursor: pointer;
+}
+
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer .footer__social {
+  margin-left: 300px;
+  margin-right: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__social img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer .footer__social .video {
+  margin-top: 9px;
+}
+
+.background__bottom {
   background-image: url(../Travel/Pics/BG_low.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
