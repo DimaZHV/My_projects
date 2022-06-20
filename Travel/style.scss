@@ -10,6 +10,12 @@ body {
 	background-size: contain;
 	font-family: "Aleo", serif;
 }
+
+@media (max-width: 1440px) {
+	.wrapper {
+		min-width: 768px;
+	}
+}
 h2 {
 	font-family: "Red Hat Text", sans-serif;
 	font-size: 40px;
