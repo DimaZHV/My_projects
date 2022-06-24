@@ -20,15 +20,20 @@
 				<div>
 					<nav>
 						<img src="../Portfolio_Ann/Pictures/1.jpg" alt="Logo" />
-						<ul>
-							<li><a href="#skills">Skills</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#video">Video</a></li>
-							<li><a href="#price">Price</a></li>
-							<li><a href="#contacts">Contacts</a></li>
+						<ul class="menu">
+							<li><a href="#">Skills</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Video</a></li>
+							<li><a href="#">Price</a></li>
+							<li><a href="#">Contacts</a></li>
 							<button id="first-button">ru/en</button>
 						</ul>
 					</nav>
+				</div>
+				<div class="menu-btn">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
 			</header>
 			<main>
@@ -214,5 +219,15 @@
 				</div>
 			</footer>
 		</div>
+		<script>
+			let menuBtn = document.querySelector(".menu-btn");
+			let menu = document.querySelector(".menu");
+			let body = document.body;
+			menuBtn.addEventListener("click", function () {
+				menuBtn.classList.toggle("active");
+				menu.classList.toggle("active");
+				body.classList.toggle("stop");
+			});
+		</script>
 	</body>
 </html>
