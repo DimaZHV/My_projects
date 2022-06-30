@@ -28,11 +28,7 @@ const button = document.querySelector(".header__login");
 const popup = document.querySelector(".pop_up");
 
 button.addEventListener("click", function () {
-<<<<<<< HEAD
 	if (confirm("Паляниця це полуниця?")) {
-=======
-	if (confirm("Ти москаль?")) {
->>>>>>> 861b961bc4804ff486264f9b410e37483176ed44
 		togle.className = "fuck_you";
 	} else {
 		loger.className = "pop1";
